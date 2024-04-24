@@ -13,17 +13,20 @@ form button {
 }
 
 body, input, textarea {
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif; 
+color: #ca0404;
 }
 
 
 header {
     padding: 16px 0;
     background-color: #ca0404;
-    color: rgb(255, 251, 251)
+    color: rgb(15, 15, 15)
 } 
 
-
+body {
+    background-color: #000000; 
+}
 
 header nav li {
     display: inline;
@@ -32,7 +35,7 @@ header nav li {
 } 
 
 header nav li a {
-    color: #ecf0f1;
+    color: #fdffff;
     text-decoration: none;
 } 
 
@@ -50,12 +53,15 @@ section .container{
 } 
 
 .brands-list img{
-height: 50px;
+height: 305px;
+margin-top: 40px;
 } 
 
 .brands-list li{
     display: inline; 
-    margin-right: 8px;
+    margin-right: 8px; 
+    margin: 5px;
+    
 } 
 
 section .container{
@@ -67,12 +73,13 @@ section{
 } 
 
 section h2 {
-    margin-bottom: 16px;
+    margin-bottom: 16px; 
+    color: #f71818;
     
 }
 
 section {
-color: #182c61;
+color: #ffffff;
 }
 
 section p {
@@ -80,8 +87,9 @@ section p {
 } 
 
 .tricolor{
-    margin-right: 32px;
-    max-width: 750px;
+    margin-right: 40px;
+    max-width: 850px; 
+    height: 600px ;
 } 
 
 .Social-links img {
@@ -125,22 +133,27 @@ section h3 {
 }
 
 form button{
-    background-color: #000000;
+    background-color: #ffffff;
     color: #ecf0f1;
     border: none; 
-    cursor: pointer;
+    cursor: pointer; 
+    margin: 20px; 
+    margin-left: 0px;
 } 
 
-form button:hover {
-    background-color:#010102
+form button {
+    background-color:#ff0000 
+    
 }
-
+form button:hover {
+background-color: #ca0404;
+}
 input:focus, textarea:focus{ 
-    outline-color: #182c61;
+    outline-color: #000000;
 }
 
 footer{
-    background-color: #182c61;
+    background-color: #ca0404;
     color: #ecf0f1;
     padding: 16px 0; 
     text-align:center ;

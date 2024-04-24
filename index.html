@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sócio togsgdfrcedor - São Paulo FC</title>
+    <title>Sócio torcedor - São Paulo FC</title>
     <link rel="stylesheet" href="./main.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,17 +27,20 @@
     </header>
     <section id="about">
         <div class="container">
-            <img class="tricolor" src="./campeão de tudo.webp" alt="Campeão Copa do Brasil 2023" />
+            <img class="tricolor" src="planos.png" alt="Campeão Copa do Brasil 2023" />
             <div>
-                <h2>São Paulo Futebol Clube </h2>
+                <h2>Faça Parte do São Paulo FC como Sócio Torcedor!</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia illo expedita voluptate incidunt at ipsa modi fuga sequi, illum magnam itaque temporibus doloremque reprehenderit ab quae laboriosam eveniet fugiat! Architecto?
+                    Apaixonado pelo São Paulo FC? Junte-se a nós como Sócio Torcedor e viva de perto as emoções do tricolor!
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit fugiat molestiae tempora, reprehenderit magnam eveniet laboriosam. Commodi vero, quidem aliquid nihil, in deserunt consequuntur ut, illum maiores praesentium expedita quibusdam.
+                    Ao se associar, você contribui diretamente para o sucesso do clube. Desfrute de benefícios exclusivos, descontos em ingressos, produtos oficiais e participe de eventos especiais.
                 </p> 
+                <p>
+                    Seja parte dessa comunidade, fortaleça os laços e ajude a escrever a história gloriosa do São Paulo FC. Vamos juntos rumo às vitórias! #VamosSãoPaulo.
+                </p>
                 <ul class="brands-list">
-                    <li> <img src="./png-transparent-sao-paulo-futebol-clube-de-sao-paulo-sp-hd-logo.png" alt="Simbolo do Time"></li> 
+                    <li> <img src="campeao-de-tudo.webp" alt="Campeão Copa do Brasil 2023"></li> 
                     
                 </ul>
             </div>
@@ -54,41 +57,66 @@
                     <input type="text" placeholder="Seu nome" required> 
                     <input type="email" placeholder="Seu email" required> 
                     <input type="tel" placeholder="Seu telefone (opcional)"> 
-                    <h5>Planossssss</h5> 
-                    <select name="Planos">
+                    <h5>Planos</h5> 
+                    <select name="Planos"> 
                         <option value="1">Vermelho</option>
                         <option value="2">Preto</option>
                         <option value="3">Tricolor</option>
-                        <option value="4">Diamante</option> </select>
-                        <button type="submit">Enviar</button> 
-                </form> 111
+                        <option value="4">Diamante</option> </select> 
+                        <br> <button type="submit">Enviar</button> <br>
+                </form> 
             </div>
-            222
-            <div> 333
+            
+            <div> 
                 <h3>Nos acompanhe</h3>
                 <ul class="Social-links">
                     <li>
                         <a href="#" title="Siga-nos no Instagram"> 
-                            <img src="./images/instagram.png" alt="Logo do instagram">
+                            <img src="instagram.png" alt="Logo do instagram">
                         </a>
                         
                     </li>
                     <li>
                         <a href="#" title="Siga-nos no Facebook"> 
-                            <img src="./images/facebook.png" alt="Logo do Facebook">
+                            <img src="facebook.png" alt="Logo do Facebook">
                         </a>    
                     </li>
                     <li>
                         <a href="#" title="Visite nosso canal no Youtube"> 
-                            <img src="./images/youtube.png" alt="Logo do Youtube">
+                            <img src="youtube.png" alt="Logo do Youtube">
                         </a>
                     </li>
                 </ul>
             </div> 
+            <script>
+                var nome = prompt("Qual seu nome torcedor?") 
+        alert('É um grande prazer tê-lo conosco, ' + nome + '!') // concatenação 
+
+        function verificarTime() {
+            
+            var resposta = prompt("Qual é o seu time?");
+
+            
+            var respostaMin = resposta.toLowerCase();
+
+            
+            if (respostaMin === "são paulo") {
+                alert("Bem-vindo à página do Tri Campeão Mundial!");
+            } else {
+                alert("Escolheu errado :)");
+            }
+        }
+
+        // Chama a função quando a página carrega (apenas para demonstração)
+        window.onload = function () {
+            verificarTime(); }
+            </script>
             <div>
-                <h3>Venha até nós</h3> 
+            
                 <p>
-                    Rua do Caraio n 666, Vila dos Viados - Pindamonhangaba SP
+                    <i>"Que hoje o São Paulo 
+                        viva mais forte em nós 
+                        do que nós mesmos"</i> 
                 </p>
             </div>
         </div>
@@ -97,9 +125,10 @@
     <footer>
         <div class="container">
         <p>
-            &copy; Games Shop - Todos os direitos reservados - 2023
+            &copy; São Paulo Futebol Clube - Todos os direitos reservados - 2024
         </p>
-        </div>
+        </div> 
+        
     </footer>
 </body>
 </html> 
